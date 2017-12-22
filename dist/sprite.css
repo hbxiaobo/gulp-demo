@@ -1,0 +1,72 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-1bg {
+  background-image: url(sprite.png);
+  background-position: -5010px -1837px;
+  width: 750px;
+  height: 1182px;
+}
+.icon-360photos {
+  background-image: url(sprite.png);
+  background-position: 0px -3674px;
+  width: 1024px;
+  height: 6144px;
+}
+.icon-arrow {
+  background-image: url(sprite.png);
+  background-position: -6707px -1837px;
+  width: 40px;
+  height: 30px;
+}
+.icon-demo1 {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 5000px;
+  height: 1827px;
+}
+.icon-demo2 {
+  background-image: url(sprite.png);
+  background-position: 0px -1837px;
+  width: 5000px;
+  height: 1827px;
+}
+.icon-demo3 {
+  background-image: url(sprite.png);
+  background-position: -5010px 0px;
+  width: 5000px;
+  height: 1827px;
+}
+.icon-fenx {
+  background-image: url(sprite.png);
+  background-position: -5770px -1837px;
+  width: 418px;
+  height: 417px;
+}
+.icon-hand {
+  background-image: url(sprite.png);
+  background-position: -6609px -1837px;
+  width: 88px;
+  height: 73px;
+}
+.icon-headImg {
+  background-image: url(sprite.png);
+  background-position: -6198px -1837px;
+  width: 401px;
+  height: 262px;
+}

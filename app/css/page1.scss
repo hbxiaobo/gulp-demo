@@ -1,0 +1,15 @@
+@mixin border-radius($radius:3px) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.btn {
+    @include border-radius();
+    width: 20px + 1in;
+  height:20px/5px + 0px;
+}
+
+.box {
+    @extend .btn;
+    color: red;
+}

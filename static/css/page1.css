@@ -1,0 +1,11 @@
+.btn,
+.box {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 116px;
+	height: 4px;
+}
+
+.box {
+	color: red;
+}
